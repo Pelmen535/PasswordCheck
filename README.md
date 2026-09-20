@@ -37,4 +37,4 @@ PasswordCheck закрывает четыре задачи:
 ## Авторы
 
 - Николай Шека — [@Pelmen535](https://github.com/Pelmen535)
-- <имя напарника> — [@<логин>](https://github.com/)
+- Максим Мокин — [@lufin1488](https://github.com/lufin1488)
