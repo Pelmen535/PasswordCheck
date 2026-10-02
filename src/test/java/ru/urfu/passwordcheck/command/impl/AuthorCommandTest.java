@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class AuthorCommandTest {
 
     @Test
-    void nameIsAbout() {
+    void nameIsAuthor() {
         assertEquals("author", new AuthorCommand().name());
     }
 
