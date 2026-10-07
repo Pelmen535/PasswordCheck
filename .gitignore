@@ -22,3 +22,31 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+out/
+
+# Секреты и локальные конфиги
+.env
+.env.local
+*.token
+application-local.properties
+
+# Логи
+*.log
+logs/
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.properties
