@@ -3,21 +3,12 @@ package ru.urfu.passwordcheck.command;
 
 import java.util.Scanner;
 
-import ru.urfu.passwordcheck.command.impl.AboutCommand;
-import ru.urfu.passwordcheck.command.impl.AuthorCommand;
-import ru.urfu.passwordcheck.command.impl.HelpCommand;
-
 public class Main {
 
     public static void main(String[] args) {
 
         // Создаём реестр
-        CommandRegistry registry = new CommandRegistry();
-
-        // Регистрируем команды
-        registry.register(new AboutCommand());
-        registry.register(new AuthorCommand());
-        registry.register(new HelpCommand(registry));
+        CommandRegistry registry = DefaultCommands.createRegistry();
 
         // Создаём обработчик
         MessageHandler handler = new CommandMessageHandler(registry);
